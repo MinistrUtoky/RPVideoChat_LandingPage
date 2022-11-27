@@ -1,22 +1,44 @@
-<header>
-gay
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="John Doe">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/main_navbar_style.css">
+	<title>Alistra</title>
+</head>
+
+<header>	
+	<nav>
+		<input type="checkbox" id="check_navbar">
+		<label for="check" class="checkbtn"><a aria-hidden="true">&#9776;</a></label>
+		<label class="logo">AlistraVChat</label>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Open rooms</a></li>
+			<li><a href="#">Create a room</a></li>
+			<li><a href="#">Feedback</a></li>
+		</ul>
+	</nav>
 </header>
 
 <body>
-<nav>gay</nav>
+	<section>
 
-<section>
+	<header>subheader
+	</header>
 
-<header>gay
-</header>
+	<article>article
+	</article>
 
-<article>gay
-</article>
+	<footer>subfooter
+	</footer>
 
-<footer>gay
-</footer>
+	</section>
 
-</section>
-
-<aside>gay</aside>
+	<aside>asideinfo</aside>
 </body>
+
+<footer>footer
+</footer>
