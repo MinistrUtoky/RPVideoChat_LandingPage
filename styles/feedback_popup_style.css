@@ -1,0 +1,10 @@
+#check_feedback{
+	display: none;
+}
+
+#check_feedback: checked{
+	display: none;
+}
+
+.right_bottom_popup_checkbtn{
+}

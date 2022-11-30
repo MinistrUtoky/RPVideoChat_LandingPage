@@ -1,53 +1,64 @@
-<head>
-	<meta charset="UTF-8">
-	<meta name="description" content="Nothing to look at here">
-	<meta name="keywords" content="Alistra">
-	<meta name="author" content="Viktor Dulov">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="styles/main_navbar_style.css">
-	<link rel="stylesheet" type="text/css" href="styles/main_footer_style.css">
-	<title>Alistra</title>
-</head>
+<html prefix="og: //ogp.me/ns#">
+	<head>
+		<meta charset="UTF-8">
+		<title >Alistra</title>
+		<meta property="og:title" content="Alistra">
+		<meta property="og:type" content="video.other">
+		<meta property="og:url" content="//www.alistravchat.com/">
+		<meta property="og:image" content="images/igor.jpg">
+		<meta property="og:description" content="Nothing to look at here">
+		<meta name="keywords" content="Alistra">
+		<meta name="author" content="Viktor Dulov">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles/main_header_and_navbar_style.css">
+		<link rel="stylesheet" type="text/css" href="styles/main_footer_style.css">
+		<link rel="stylesheet" type="text/css" href="styles/feedback_popup_style.css">
+	</head>
 
-<header>
-		<nav class="header_navbar">
-			<input type="checkbox" id="check_navbar"  class="header_navbar">
-			<label for="check_navbar" class="checkbtn"><a aria-hidden="true">&#9776;</a></label>
-			<label class="logo">AlistraVChat</label>
-			<ul  class="header_navbar">
-				<li  class="header_navbar"><a href="#"  class="header_navbar">Home</a></li>
-				<li  class="header_navbar"><a href="#"  class="header_navbar">FAQ</a></li>
-				<li  class="header_navbar"><a href="#"  class="header_navbar">Open rooms</a></li>
-				<li  class="header_navbar"><a href="#"  class="header_navbar">Create a room</a></li>
-				<li  class="header_navbar"><a href="#"  class="header_navbar">Feedback</a></li>
+	<header>
+			<nav class="header_navbar">
+				<input type="checkbox" id="check_navbar"  class="header_navbar">
+				<label for="check_navbar" class="checkbtn"><a aria-hidden="true">&#9776;</a></label>
+				<label class="logo">AlistraVChat</label>
+				<ul  class="header_navbar">
+					<li  class="header_navbar"><a href="#"  class="header_navbar">Home</a></li>
+					<li  class="header_navbar"><a href="#"  class="header_navbar">FAQ</a></li>
+					<li  class="header_navbar"><a href="#"  class="header_navbar">Open rooms</a></li>
+					<li  class="header_navbar"><a href="#"  class="header_navbar">Create a room</a></li>
+					<li  class="header_navbar"><a href="#"  class="header_navbar">Feedback</a></li>
+				</ul>
+			</nav>
+	</header>
+
+	<body>
+		<section>
+
+			<header><a>subheader (article name eg)
+			</a></header>
+
+			<article>article (main thingie)
+			</article>
+
+			<footer>subfooter (may also be interesting and some gay shit)
+			</footer>
+
+		</section>
+
+		<aside>asideinfo (ads and stuff)</aside>
+		<input type="checkbox" id="check_feedback"  class="right_bottom_popup">
+		<image name="feedbackIcon" class="right_bottom_popup_checkbtn" src="images/feedback.png"></image>
+		<div class="feedback_popup"></div>
+	</body>
+
+	<footer>
+		<nav class="footer_navbar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Feedback</a></li>
+				<li>Contact us: &#9742; poopa_loopa@rambler.ru</li>
+				<li>&#9743; +78005553535</li>
 			</ul>
 		</nav>
-</header>
-
-<body>
-	<section>
-
-	<header style=font-size:600px><a>subheader
-	</a></header>
-
-	<article>article
-	</article>
-
-	<footer>subfooter
 	</footer>
-
-	</section>
-
-	<aside>asideinfo</aside>
-</body>
-
-<footer>
- +78005553535 poopa_loopa@rambler.ru
-<nav class="footer_navbar">
-	<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">FAQ</a></li>
-		<li><a href="#">Feedback</a></li>
-	</ul>
-</nav>
-</footer>
+</html>

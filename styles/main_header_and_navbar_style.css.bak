@@ -16,10 +16,11 @@ nav.header_navbar{
 
 label.logo{
 	color: white;
-	font-size: 35px;
+	font-size: 33px;
 	line-height: 80px;
 	padding: 0 100px;
 	font-weight: bold;
+	font-family: matura mt script capitals;
 }
 nav ul.header_navbar{
 	float: right;
@@ -34,11 +35,13 @@ nav ul li a.header_navbar{
 	color: white;
 	font-size: 17px;
 	text-transform:uppercase;
+	font-family:franklin gothic medium;
 }
 a:hover.header_navbar{
 	background: #00AAE4;
 	transition: .5s;
 }
+
 .checkbtn{
 	font-size: 30px;
 	color: white;

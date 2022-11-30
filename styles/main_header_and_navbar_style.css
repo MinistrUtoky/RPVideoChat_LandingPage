@@ -1,4 +1,3 @@
-
 *{
 	margin: 0;
 	text-decoration:none;
@@ -41,6 +40,7 @@ a:hover.header_navbar{
 	background: #00AAE4;
 	transition: .5s;
 }
+
 .checkbtn{
 	font-size: 30px;
 	color: white;
