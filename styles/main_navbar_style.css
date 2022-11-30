@@ -1,19 +1,19 @@
+
 *{
-	padding: 0;
 	margin: 0;
 	text-decoration:none;
 	list-style: none;
 	box-sizing: border-box;
 }
-body{
-	font-family: montserrat;
-}
-nav{
+
+nav.header_navbar{
 	background: #92DFF3;
 	height: auto;
 	width: 80%;
 	margin: auto;
+	padding: 0;
 }
+
 label.logo{
 	color: white;
 	font-size: 35px;
@@ -21,21 +21,21 @@ label.logo{
 	padding: 0 100px;
 	font-weight: bold;
 }
-nav ul{
+nav ul.header_navbar{
 	float: right;
 	margin-right: 20px;
 }
-nav ul li{
+nav ul li.header_navbar{
 	display:inline-block;
 	line-height: 80px;
 	margin: 0 5px;
 }
-nav ul li a{
+nav ul li a.header_navbar{
 	color: white;
 	font-size: 17px;
 	text-transform:uppercase;
 }
-a:hover{
+a:hover.header_navbar{
 	background: #00AAE4;
 	transition: .5s;
 }
@@ -49,27 +49,19 @@ a:hover{
 	display: none;
 }
 
+
 #check_navbar{
 	display: none;
 }
 
-@media (max-width: 952px){
-	label.logo{
-		font-size: 30px;
-		padding-left: 50px;
-	}
-	nav ul li a{
-		font-size: 16px;
-	}
-}
 @media (max-width: 858px){
 	.checkbtn{
 		display: block;
 	}
-	nav{
+	nav.header_navbar{
 		width: 100%
 	}
-	ul{
+	ul.header_navbar{
 		margin: auto;
 		position: fixed;
 		width: 100%;
@@ -80,26 +72,20 @@ a:hover{
 		text-align: center;
 		transition: all .5s;
 	}
-	nav ul li{
+	nav ul li.header_navbar{
 		display: block;
 		margin: 50px 0;
 		line-height: 30px;
 	}
-	nav ul li a{
+	nav ul li a.header_navbar{
 		font-size:20px;
 	}
-	a:hover, a.active{
+	a:hover.header_navbar, a.active.header_navbar{
 		background: none;
 		color: #0082e6;
 	}
 	
-	#check_navbar:checked ~ ul{
+	#check_navbar:checked ~ ul.header_navbar{
 		left: 0;
-	}
-	
-	section{
-		background: blue;
-		background-size: cover;
-		height: calc(100vh-80px);
 	}
 }
