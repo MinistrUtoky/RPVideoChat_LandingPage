@@ -56,9 +56,45 @@ a:hover.header_navbar{
 	display: none;
 }
 
+@media (min-width: 859px) and (max-width: 1180px){
+	.checkbtn{
+		display: block;
+	}
+	nav.header_navbar{
+		width: 90%;
+	}
+	
+	ul.header_navbar{
+		margin: auto;
+		position: fixed;
+		width: 90%;
+		height: calc(100vh - 80px);
+		background: #2c3e50;
+		bottom: -100%;
+		text-align: center;
+		transition: all .3s;
+	}
+	nav ul li.header_navbar{
+		display: block;
+		margin: 0 5px;
+		line-height: 80px;
+	}
+	a:hover.header_navbar, a.active.header_navbar{
+		background: none;
+		color: #0082e6;
+	}
+	
+	#check_navbar:checked ~ ul.header_navbar{
+		bottom: 0;
+	}
+}
+
 @media (max-width: 858px){
 	.checkbtn{
 		display: block;
+	}
+	label.logo{
+		font-size:30px;
 	}
 	nav.header_navbar{
 		width: 100%
@@ -90,4 +126,6 @@ a:hover.header_navbar{
 	#check_navbar:checked ~ ul.header_navbar{
 		left: 0;
 	}
-}
+	
+}	
+

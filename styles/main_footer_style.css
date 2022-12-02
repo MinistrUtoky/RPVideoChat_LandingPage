@@ -11,6 +11,12 @@ nav.footer_navbar{
 }
 
 
+@media (min-width: 859px) and (max-width: 1180px){
+	nav.footer_navbar{
+		width: 90%;
+	}
+}
+
 @media (max-width: 858px){
 	nav.footer_navbar{
 		width: 100%
